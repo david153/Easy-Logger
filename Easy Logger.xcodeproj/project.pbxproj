@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B962ED117D045AE00527087 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B962ED017D045AE00527087 /* UIKit.framework */; };
+		8B962ED317D045AE00527087 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B962ED217D045AE00527087 /* Foundation.framework */; };
+		8B962ED517D045AE00527087 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B962ED417D045AE00527087 /* CoreGraphics.framework */; };
+		8B962EDB17D045AE00527087 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B962ED917D045AE00527087 /* InfoPlist.strings */; };
+		8B962EDD17D045AE00527087 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B962EDC17D045AE00527087 /* main.m */; };
+		8B962EE117D045AE00527087 /* ELAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B962EE017D045AE00527087 /* ELAppDelegate.m */; };
+		8B962EE317D045AE00527087 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B962EE217D045AE00527087 /* Default.png */; };
+		8B962EE517D045AE00527087 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B962EE417D045AE00527087 /* Default@2x.png */; };
+		8B962EE717D045AE00527087 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B962EE617D045AE00527087 /* Default-568h@2x.png */; };
+		8B962EEA17D045AE00527087 /* ELViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B962EE917D045AE00527087 /* ELViewController.m */; };
+		8B962EED17D045AE00527087 /* ELViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B962EEB17D045AE00527087 /* ELViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B962ECD17D045AE00527087 /* Easy Logger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Easy Logger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B962ED017D045AE00527087 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8B962ED217D045AE00527087 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8B962ED417D045AE00527087 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8B962ED817D045AE00527087 /* Easy Logger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Easy Logger-Info.plist"; sourceTree = "<group>"; };
+		8B962EDA17D045AE00527087 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8B962EDC17D045AE00527087 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B962EDE17D045AE00527087 /* Easy Logger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Easy Logger-Prefix.pch"; sourceTree = "<group>"; };
+		8B962EDF17D045AE00527087 /* ELAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELAppDelegate.h; sourceTree = "<group>"; };
+		8B962EE017D045AE00527087 /* ELAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELAppDelegate.m; sourceTree = "<group>"; };
+		8B962EE217D045AE00527087 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8B962EE417D045AE00527087 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8B962EE617D045AE00527087 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8B962EE817D045AE00527087 /* ELViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELViewController.h; sourceTree = "<group>"; };
+		8B962EE917D045AE00527087 /* ELViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELViewController.m; sourceTree = "<group>"; };
+		8B962EEC17D045AE00527087 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ELViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B962ECA17D045AE00527087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B962ED117D045AE00527087 /* UIKit.framework in Frameworks */,
+				8B962ED317D045AE00527087 /* Foundation.framework in Frameworks */,
+				8B962ED517D045AE00527087 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B962EC417D045AE00527087 = {
+			isa = PBXGroup;
+			children = (
+				8B962ED617D045AE00527087 /* Easy Logger */,
+				8B962ECF17D045AE00527087 /* Frameworks */,
+				8B962ECE17D045AE00527087 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B962ECE17D045AE00527087 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B962ECD17D045AE00527087 /* Easy Logger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B962ECF17D045AE00527087 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B962ED017D045AE00527087 /* UIKit.framework */,
+				8B962ED217D045AE00527087 /* Foundation.framework */,
+				8B962ED417D045AE00527087 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B962ED617D045AE00527087 /* Easy Logger */ = {
+			isa = PBXGroup;
+			children = (
+				8B962EDF17D045AE00527087 /* ELAppDelegate.h */,
+				8B962EE017D045AE00527087 /* ELAppDelegate.m */,
+				8B962EE817D045AE00527087 /* ELViewController.h */,
+				8B962EE917D045AE00527087 /* ELViewController.m */,
+				8B962EEB17D045AE00527087 /* ELViewController.xib */,
+				8B962ED717D045AE00527087 /* Supporting Files */,
+			);
+			path = "Easy Logger";
+			sourceTree = "<group>";
+		};
+		8B962ED717D045AE00527087 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B962ED817D045AE00527087 /* Easy Logger-Info.plist */,
+				8B962ED917D045AE00527087 /* InfoPlist.strings */,
+				8B962EDC17D045AE00527087 /* main.m */,
+				8B962EDE17D045AE00527087 /* Easy Logger-Prefix.pch */,
+				8B962EE217D045AE00527087 /* Default.png */,
+				8B962EE417D045AE00527087 /* Default@2x.png */,
+				8B962EE617D045AE00527087 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B962ECC17D045AE00527087 /* Easy Logger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B962EF017D045AE00527087 /* Build configuration list for PBXNativeTarget "Easy Logger" */;
+			buildPhases = (
+				8B962EC917D045AE00527087 /* Sources */,
+				8B962ECA17D045AE00527087 /* Frameworks */,
+				8B962ECB17D045AE00527087 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Easy Logger";
+			productName = "Easy Logger";
+			productReference = 8B962ECD17D045AE00527087 /* Easy Logger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B962EC517D045AE00527087 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EL;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = DavidSumner;
+			};
+			buildConfigurationList = 8B962EC817D045AE00527087 /* Build configuration list for PBXProject "Easy Logger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8B962EC417D045AE00527087;
+			productRefGroup = 8B962ECE17D045AE00527087 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B962ECC17D045AE00527087 /* Easy Logger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B962ECB17D045AE00527087 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B962EDB17D045AE00527087 /* InfoPlist.strings in Resources */,
+				8B962EE317D045AE00527087 /* Default.png in Resources */,
+				8B962EE517D045AE00527087 /* Default@2x.png in Resources */,
+				8B962EE717D045AE00527087 /* Default-568h@2x.png in Resources */,
+				8B962EED17D045AE00527087 /* ELViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B962EC917D045AE00527087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B962EDD17D045AE00527087 /* main.m in Sources */,
+				8B962EE117D045AE00527087 /* ELAppDelegate.m in Sources */,
+				8B962EEA17D045AE00527087 /* ELViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8B962ED917D045AE00527087 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B962EDA17D045AE00527087 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8B962EEB17D045AE00527087 /* ELViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B962EEC17D045AE00527087 /* en */,
+			);
+			name = ELViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B962EEE17D045AE00527087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8B962EEF17D045AE00527087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B962EF117D045AE00527087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Easy Logger/Easy Logger-Prefix.pch";
+				INFOPLIST_FILE = "Easy Logger/Easy Logger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8B962EF217D045AE00527087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Easy Logger/Easy Logger-Prefix.pch";
+				INFOPLIST_FILE = "Easy Logger/Easy Logger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B962EC817D045AE00527087 /* Build configuration list for PBXProject "Easy Logger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B962EEE17D045AE00527087 /* Debug */,
+				8B962EEF17D045AE00527087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B962EF017D045AE00527087 /* Build configuration list for PBXNativeTarget "Easy Logger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B962EF117D045AE00527087 /* Debug */,
+				8B962EF217D045AE00527087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B962EC517D045AE00527087 /* Project object */;
+}
