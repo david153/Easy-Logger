@@ -76,8 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				8B4E0D8117D3E68D000402EF /* QuartzCore.framework */,
-				8B962EFE17D25E0F00527087 /* Icon.png */,
-				8B962EFC17D25DC800527087 /* Icon@2x.png */,
+				8BAA4A2517ECEDF000ADCBDD /* images */,
 				8B962EF617D23F0900527087 /* MessageUI.framework */,
 				8B962ED617D045AE00527087 /* Easy Logger */,
 				8B962ECF17D045AE00527087 /* Frameworks */,
@@ -132,6 +131,15 @@
 				8B962EE617D045AE00527087 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BAA4A2517ECEDF000ADCBDD /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8B962EFE17D25E0F00527087 /* Icon.png */,
+				8B962EFC17D25DC800527087 /* Icon@2x.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
