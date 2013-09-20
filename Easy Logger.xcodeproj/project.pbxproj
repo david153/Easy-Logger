@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B08794E17D275260073427A /* ELPatientData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B08794D17D275260073427A /* ELPatientData.m */; };
+		8B4E0D7C17D3E0CE000402EF /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4E0D7B17D3E0CE000402EF /* DropboxSDK.framework */; };
+		8B4E0D7E17D3E0E7000402EF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4E0D7D17D3E0E7000402EF /* Security.framework */; };
+		8B4E0D8217D3E68D000402EF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4E0D8117D3E68D000402EF /* QuartzCore.framework */; };
 		8B962ED117D045AE00527087 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B962ED017D045AE00527087 /* UIKit.framework */; };
 		8B962ED317D045AE00527087 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B962ED217D045AE00527087 /* Foundation.framework */; };
 		8B962ED517D045AE00527087 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B962ED417D045AE00527087 /* CoreGraphics.framework */; };
@@ -18,9 +22,17 @@
 		8B962EE717D045AE00527087 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B962EE617D045AE00527087 /* Default-568h@2x.png */; };
 		8B962EEA17D045AE00527087 /* ELViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B962EE917D045AE00527087 /* ELViewController.m */; };
 		8B962EED17D045AE00527087 /* ELViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B962EEB17D045AE00527087 /* ELViewController.xib */; };
+		8B962EF717D23F0900527087 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B962EF617D23F0900527087 /* MessageUI.framework */; };
+		8B962EFD17D25DC800527087 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B962EFC17D25DC800527087 /* Icon@2x.png */; };
+		8B962EFF17D25E0F00527087 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B962EFE17D25E0F00527087 /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B08794C17D275260073427A /* ELPatientData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELPatientData.h; path = ../ELPatientData.h; sourceTree = "<group>"; };
+		8B08794D17D275260073427A /* ELPatientData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELPatientData.m; path = ../ELPatientData.m; sourceTree = "<group>"; };
+		8B4E0D7B17D3E0CE000402EF /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxSDK.framework; sourceTree = "<group>"; };
+		8B4E0D7D17D3E0E7000402EF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8B4E0D8117D3E68D000402EF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8B962ECD17D045AE00527087 /* Easy Logger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Easy Logger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B962ED017D045AE00527087 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8B962ED217D045AE00527087 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +49,9 @@
 		8B962EE817D045AE00527087 /* ELViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELViewController.h; sourceTree = "<group>"; };
 		8B962EE917D045AE00527087 /* ELViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELViewController.m; sourceTree = "<group>"; };
 		8B962EEC17D045AE00527087 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ELViewController.xib; sourceTree = "<group>"; };
+		8B962EF617D23F0900527087 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		8B962EFC17D25DC800527087 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		8B962EFE17D25E0F00527087 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,9 +59,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B4E0D8217D3E68D000402EF /* QuartzCore.framework in Frameworks */,
+				8B4E0D7E17D3E0E7000402EF /* Security.framework in Frameworks */,
+				8B962EF717D23F0900527087 /* MessageUI.framework in Frameworks */,
 				8B962ED117D045AE00527087 /* UIKit.framework in Frameworks */,
 				8B962ED317D045AE00527087 /* Foundation.framework in Frameworks */,
 				8B962ED517D045AE00527087 /* CoreGraphics.framework in Frameworks */,
+				8B4E0D7C17D3E0CE000402EF /* DropboxSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +75,10 @@
 		8B962EC417D045AE00527087 = {
 			isa = PBXGroup;
 			children = (
+				8B4E0D8117D3E68D000402EF /* QuartzCore.framework */,
+				8B962EFE17D25E0F00527087 /* Icon.png */,
+				8B962EFC17D25DC800527087 /* Icon@2x.png */,
+				8B962EF617D23F0900527087 /* MessageUI.framework */,
 				8B962ED617D045AE00527087 /* Easy Logger */,
 				8B962ECF17D045AE00527087 /* Frameworks */,
 				8B962ECE17D045AE00527087 /* Products */,
@@ -73,6 +96,8 @@
 		8B962ECF17D045AE00527087 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8B4E0D7D17D3E0E7000402EF /* Security.framework */,
+				8B4E0D7B17D3E0CE000402EF /* DropboxSDK.framework */,
 				8B962ED017D045AE00527087 /* UIKit.framework */,
 				8B962ED217D045AE00527087 /* Foundation.framework */,
 				8B962ED417D045AE00527087 /* CoreGraphics.framework */,
@@ -83,6 +108,8 @@
 		8B962ED617D045AE00527087 /* Easy Logger */ = {
 			isa = PBXGroup;
 			children = (
+				8B08794C17D275260073427A /* ELPatientData.h */,
+				8B08794D17D275260073427A /* ELPatientData.m */,
 				8B962EDF17D045AE00527087 /* ELAppDelegate.h */,
 				8B962EE017D045AE00527087 /* ELAppDelegate.m */,
 				8B962EE817D045AE00527087 /* ELViewController.h */,
@@ -164,6 +191,8 @@
 				8B962EE517D045AE00527087 /* Default@2x.png in Resources */,
 				8B962EE717D045AE00527087 /* Default-568h@2x.png in Resources */,
 				8B962EED17D045AE00527087 /* ELViewController.xib in Resources */,
+				8B962EFD17D25DC800527087 /* Icon@2x.png in Resources */,
+				8B962EFF17D25E0F00527087 /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +206,7 @@
 				8B962EDD17D045AE00527087 /* main.m in Sources */,
 				8B962EE117D045AE00527087 /* ELAppDelegate.m in Sources */,
 				8B962EEA17D045AE00527087 /* ELViewController.m in Sources */,
+				8B08794E17D275260073427A /* ELPatientData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +244,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -229,6 +260,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -245,7 +278,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -253,6 +287,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -261,6 +297,10 @@
 		8B962EF117D045AE00527087 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Easy Logger/Easy Logger-Prefix.pch";
 				INFOPLIST_FILE = "Easy Logger/Easy Logger-Info.plist";
@@ -272,6 +312,10 @@
 		8B962EF217D045AE00527087 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Easy Logger/Easy Logger-Prefix.pch";
 				INFOPLIST_FILE = "Easy Logger/Easy Logger-Info.plist";
@@ -299,6 +343,7 @@
 				8B962EF217D045AE00527087 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

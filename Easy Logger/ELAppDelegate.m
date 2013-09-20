@@ -9,11 +9,20 @@
 #import "ELAppDelegate.h"
 
 #import "ELViewController.h"
+#import <DropboxSDK/DropboxSDK.h>
 
 @implementation ELAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+//    DBSession* dbSession =
+//    [[DBSession alloc]
+//      initWithAppKey:@"xz3vjm3x8zekc8z"
+//      appSecret:@"hfaf4q73hrvhrls"
+//      root:kDBRootAppFolder];
+//    [DBSession setSharedSession:dbSession];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.viewController = [[ELViewController alloc] initWithNibName:@"ELViewController" bundle:nil];
@@ -21,6 +30,19 @@
     [self.window makeKeyAndVisible];
     return YES;
 }
+
+//- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+//    if ([[DBSession sharedSession] handleOpenURL:url]) {
+//        if ([[DBSession sharedSession] isLinked]) {
+//            NSLog(@"App linked successfully!");
+//            // At this point you can start making API calls
+//        }
+//        return YES;
+//    }
+//    // Add whatever other url handling code your app requires here
+//    NSLog(@"ERROR IN LINKING");
+//    return NO;
+//}
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
