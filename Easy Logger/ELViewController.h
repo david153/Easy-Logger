@@ -31,6 +31,7 @@ int enteredAge;
 @property (strong, nonatomic) IBOutlet UIButton *confirmButton;
 @property (strong, nonatomic) IBOutlet UIButton *cancelButton;
 //@property (strong, nonatomic) IBOutlet UIButton *dropBoxButton;
+@property (strong, nonatomic) IBOutlet UITextView *recentRecordsField;
 
 @property (nonatomic, strong) NSMutableArray *patientRecords;
 @property (nonatomic, strong) ELPatientData *currentPatientRecord;

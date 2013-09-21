@@ -44,6 +44,8 @@
 
 - (void)viewDidLoad
 {
+    [super viewDidLoad];
+    
     //Setup text Field Actions
     [self.diagnosisField setDelegate:self];
     [self.diagnosisField setReturnKeyType:UIReturnKeyDone];
@@ -68,7 +70,8 @@
     
     _report = @"";
     _lastConfirmedReport = @"";
-    [super viewDidLoad];
+    [self showRecentRecordsResults];
+    
 }
 
 -(void) setUpDataString
@@ -302,9 +305,7 @@
         NSLog(@"Repeated Report");
         [self repeatedRecordAlert];
         return;
-        
     }
-    
     
     if (enteredAge == 0)
     {
@@ -334,8 +335,29 @@
     _currentReportField.text = @"";
     _confirmedReport = [_report copy];
     _lastConfirmedReport = [_report copy];
-}
+    
+    [self showRecentRecordsResults];
+    }
 
+-(void) showRecentRecordsResults
+{
+    _recentRecordsField.text = @"";
+    NSString *reportString = @"";
+    int lastRecord = _patientRecords.count -1;
+    int numberOfRecordsToShow = 4;
+    if(_patientRecords.count < 4)
+        numberOfRecordsToShow = _patientRecords.count;
+        
+    for (int i= 0; i < numberOfRecordsToShow; i++)
+    {
+        ELPatientData* patientRecord = (ELPatientData*)(_patientRecords[lastRecord-i]);
+        reportString = [reportString stringByAppendingString:[NSString stringWithFormat:@"Age: %@ Diagnosis: %@ Treatment: %@ Rotation: %@\n",patientRecord.age, patientRecord.diagnosis, patientRecord.treatment, patientRecord.rotation] ];
+    }
+    NSLog(@"report String: %@",reportString);
+    
+    _recentRecordsField.text = reportString;
+
+}
 
 #pragma mark email code
 -(NSString *) formDateAndTimeString
